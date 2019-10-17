@@ -4,7 +4,7 @@ An asynchronous, replicated database with nuanced consistency guarantees based o
 
 [ipfs](https://ipfs.io/docs/) introduced some good theoretical ideas (like object immutability), but made many implementation mistakes. In practice, many features still suck; for example, it is slow and buggy for something as simple as fetching files.
 
-There are many basic bugs that haven't been fixed because of an obsession with modularity and abstraction at the networking layer ([libp2p](https://github.com/ipfs/go-ipfs)). 
+There are many basic bugs that haven't been fixed because of an obsession with modularity and abstraction at the networking layer ([libp2p](https://github.com/libp2p/go-libp2p)). 
 
 Currently, it connects to bootstrap nodes and tries to discover peers asynchronously. The handshake with bootstrap nodes fails before it discovers peers`=>` it waits another 1-5 minutes depending on the setting to (re-)attempt discovery after the handshake fails. This causes startup to take a few minutes (and [this issue](https://github.com/ipfs/go-ipfs/issues/5953) has been open since May)...
 
