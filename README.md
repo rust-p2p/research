@@ -36,4 +36,5 @@ The networking layer consists of three main parts:
 ### incentives
 
 * [Robust incentive techniques for peer-to-peer networks](https://zoo.cs.yale.edu/classes/cs426/2012/bib/feldman04robust.pdf)
+* [An incentive mechanism for p2p networks](http://dna-pubs.cs.columbia.edu/citation/paperfile/18/ICDCS04.pdf)
 * [`troublescooter/incentives`](https://github.com/troublescooter/incentives)
