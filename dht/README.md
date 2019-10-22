@@ -16,7 +16,13 @@ We are exploring how this work could be made into a framework for building DHTs.
 
 ### more reading
 
+* [s-kademlia ppt](https://pdfs.semanticscholar.org/3165/2823ca71520038773346b6e5bbfadc5c8419.pdf)
 * [Broose: a Practical Distributed Hashtable based on the De-Bruijn Topology](http://www.cs.kent.edu/~javed/class-IAD06S/papers-2004/gai.pdf)
 * [Introducing KFS: a local file store inspired by Kademlia](https://storj.io/blog/2016/09/introducing-kfs-a-local-file-store-inspired-by-kademlia/)
 * [Redundancy on Swarm](https://swarm-guide.readthedocs.io/en/latest/architecture.html#redundancy)
 
+#### videos (basics)
+
+* [XOR Distance and Basic Routing](https://www.youtube.com/watch?v=w9UObz8o8lY)
+* [How are Routing Tables built?](https://www.youtube.com/watch?v=mJgN3PzepqI)
+* [Building Decentralized Systems using DHTs](https://www.youtube.com/watch?v=BCksQYqU5ok)
