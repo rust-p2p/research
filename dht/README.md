@@ -1,7 +1,7 @@
 # dht research
 > [rust-p2p/s-kademlia](https://github.com/rust-p2p/s-kademlia)
 
-The networking layer uses an implementation of [`s/kademlia`](https://www.researchgate.net/publication/4319659_SKademlia_A_practicable_approach_towards_secure_key-based_routing) to foster secure key-based routing. This variant of kademlia prevents sybil attacks on the address space by requiring a minimum work threshold for node generation (storage NodeId generation requires *trailing* bits of 0s `=>` slows down process of adding new nodes).
+The networking layer uses an implementation of [`s/kademlia`](https://www.researchgate.net/publication/4319659_SKademlia_A_practicable_approach_towards_secure_key-based_routing) to foster secure key-based routing.
 
 ## why kademlia?
 
