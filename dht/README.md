@@ -5,7 +5,7 @@ The networking layer uses an implementation of [`s/kademlia`](https://www.resear
 
 ## why kademlia?
 
-The symmetricity of the XOR metric ensures that disjoint converge to a single path. This provides more robust security against eclipse attacks by allowing for multiple lookups at once (to mitigate the probability that all lookups are intercepted by an attacker).
+The symmetricity of the XOR metric ensures that disjoint lookups converge to a single path. This makes it harder to successfully execute eclipse attacks by, in general, encouraging nodes to ask more peers.
 
 ## building a dht framework
 
@@ -13,6 +13,16 @@ We are exploring how this work could be made into a framework for building DHTs.
 * partition the network based on latency and use a random xor metric within that partition
 * use chord to **embed latency** rather than relying on some distance-oblivious nodeId generation algorithm: *see [Towards a Framework for DHT Distributed Computing](https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1108&context=cs_diss)*
 * chord distance metric may be able use the rtt estimator required by delay-based congestion policies
+
+### bitswap
+
+talks
+* [jeromy coffee talks - bitswap](https://www.youtube.com/watch?v=9UjqJTCg_h4)
+* [london hack week - grapnsync improvements and modular architecture](https://www.youtube.com/watch?v=6GKKwcG630M)
+
+code/specs
+* [js-ipfs](https://ipfs.github.io/js-ipfs-bitswap/#intro)
+* [golang-ipfs](https://github.com/ipfs/go-bitswap#implementation)
 
 ### more reading
 
