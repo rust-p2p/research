@@ -7,17 +7,13 @@ In order to get going, we first need an
 
 ## Authenticated Transport Layer <a name = "at"></a>
 
-*WIP*
 * **[disco](https://github.com/rust-p2p/disco)**
 * **[efcp](https://github.com/rust-p2p/efcp)**
-
-sources
-* *[Fed Up Getting Shattered and Log Jammed? A New Generation of Crypto is Coming](https://www.youtube.com/watch?v=bTGLO4obxco)*
+* [background and links](./transport/README.md)
 
 ## Incentive Overlay <a name = "io"></a>
 > Robust Incentives-Based Allocation of Resources
 
-*WIP*
 * **[incentives](https://github.com/rust-p2p/incentives)**
 
 sources
@@ -27,7 +23,6 @@ sources
 
 ## Routing <a name = "rr"></a>
 
-WIP
 * **[s-kademlia](https://github.com/rust-p2p/s-kademlia)**
 
 sources
